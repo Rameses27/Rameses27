@@ -1,0 +1,107 @@
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.fa-brands.fa-tiktok.fa-3x{
+    color:black;text-align:center;}
+.fa-brands.fa-x-twitter.fa-3x{
+    color:black;text-align:center;}
+.fa-brands.fa-facebook.fa-3x{
+    color:rgb(27, 84, 182);text-align:center;}
+.fa-brands.fa-whatsapp.fa-3x{
+    color:green;text-align:center;}
+    .fa-brands.fa-linkedin.fa-3x{
+    color:rgb(27, 84, 182);text-align:center;}
+.fa-brands.fa-telegram.fa-3x{
+    color: #0088cc;text-align:center;}
+.fa-solid.fa-envelope.fa-3x{
+    color: red;text-align:center;}
+.Contact{
+    color: rgb(63, 18, 134);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #aaa;
+    margin-top: 0px;
+    padding-top: -50px;
+    border: rgb(70, 39, 242);
+    border-radius: 10px;
+}
+.ripple{
+   height: 100vh;
+   margin: 0;
+   background: #ffffff;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ff0800, 0 0 10px #d14c4c, 0 0 20px #950404, 0 0 40px #d31818, 0 0 80px #ff0000;
+    
+}
+.ripple{
+    display: flex;
+    gap: 5px;
+    font-size:7rem;
+}
+.ripple span{
+    display: inline-block;
+    animation: ripple 1.2s ease-in-out infinite;
+}
+.ripple span:nth-child(1){animation-delay: 0s;}
+.ripple:nth-child(2){animation-delay: 0.1s;}
+.ripple span:nth-child(3){animation-delay: 0.2s;}
+.ripple span:nth-child(4){animation-delay: 0.3s;}
+.ripple span:nth-child(5){animation-delay: 0.4s;}
+.ripple span:nth-child(6){animation-delay: 0.5s;}
+.ripple span:nth-child(7){animation-delay: 0.6s;}
+.ripple span:nth-child(8){animation-delay: 0.7s;}
+@keyframes ripple{
+    0%,100%{
+        transform: translateY(0);scale:initial(1);color: rgb(243, 243, 243);}
+    50%{
+        transform: translateY(-15px)scale(1.2);
+        color: #ffffff;
+    }}
+
+.all{
+    font-size: small;
+    color: black;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+@media (max-width: 600px) {
+    img {
+        max-width: 100%;
+        height: auto !important;
+    }
+    .ripple {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+        height: auto;
+    }
+    h1, .Contact {
+        font-size: 2rem !important;
+    }
+    .social-icons {
+        gap: 10px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .header {
+        font-size: 1.2rem;
+    }
+}
+.de{
+    border: 0.5rem solid;
+    border-radius: 3rem;
+    border-color: cyan;
+    background-color: black;
+    color: aliceblue;
+}
